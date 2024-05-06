@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="apa"
+    tools:context=".profil">
+
+    <ImageButton
+        android:contentDescription="nul"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="524dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/passwordgambar"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/ubahpassword"
+        />
+
+    <ImageButton
+        android:id="@+id/logout"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="584dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/logoutbtn"
+        android:contentDescription="null"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/material1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/untitled2"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/untitled"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:background="@color/white"
+        android:fontFamily="@font/jersey"
+        android:text="Aden XI RPL 1"
+        android:textSize="40dp"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        android:gravity="start"
+        android:text="Info anda"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/parenttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="264dp"
+        android:gravity="start"
+        android:text="No telepon"
+        android:textSize="20dp"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.207"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="+6209213842"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintBaseline_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="@id/parenttext"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/parenttext"
+        app:layout_constraintTop_toTopOf="@id/parenttext" />
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="44dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/parenttext"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/parenttext"
+
+
+        app:layout_constraintTop_toTopOf="@id/parenttext" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="NIS(No induk Siswa)"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/parenttext"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/parenttext"
+        app:layout_constraintTop_toTopOf="@id/parenttext" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="6521/095.341"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintBaseline_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="@id/parenttext"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/parenttext"
+        app:layout_constraintTop_toTopOf="@id/parenttext" />
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/parenttext"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/parenttext"
+
+
+        app:layout_constraintTop_toTopOf="@id/parenttext" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="Tempat tanggal lahir"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/parenttext"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/parenttext"
+        app:layout_constraintTop_toTopOf="@id/parenttext" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:text="Malang 27-6-2006"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintBaseline_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="@id/parenttext"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/parenttext"
+        app:layout_constraintTop_toTopOf="@id/parenttext" />
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="216dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/parenttext"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/parenttext"
+
+
+        app:layout_constraintTop_toTopOf="@id/parenttext" />
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="156dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/parenttext"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/parenttext"
+
+
+        app:layout_constraintTop_toTopOf="@id/parenttext" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        android:text="Alamat"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/parenttext"
+        app:layout_constraintTop_toTopOf="@id/parenttext" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        android:text="Karangploso"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintBaseline_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="@id/parenttext"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/parenttext"
+        app:layout_constraintTop_toTopOf="@id/parenttext" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
